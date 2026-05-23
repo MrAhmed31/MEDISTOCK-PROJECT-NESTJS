@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t pharmacy-nest-app .'
+                sh 'cd pharmacy-nest && docker build -t pharmacy-nest-app .'
             }
         }
 
