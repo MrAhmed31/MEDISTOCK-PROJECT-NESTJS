@@ -31,7 +31,7 @@
 $ npm install
 ```
 
-## Compile and run the project
+## Compile and run the project using the below commands
 
 ```bash
 # development
